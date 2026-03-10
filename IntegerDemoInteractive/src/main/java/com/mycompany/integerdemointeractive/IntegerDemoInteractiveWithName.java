@@ -29,6 +29,11 @@ public class IntegerDemoInteractiveWithName {
         name = userInput.nextLine();
         System.out.println("Thank you, " + name);
         
+        System.out.println("The Int is " + anInt);
+        System.out.println("The Byte is " + aByte);
+        System.out.println("The Short is " + aShort);
+        System.out.println("The Long is " + aLong);
+        
         userInput.close();
     }
 }
