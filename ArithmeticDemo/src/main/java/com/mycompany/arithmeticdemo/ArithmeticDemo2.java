@@ -14,9 +14,9 @@ public class ArithmeticDemo2 {
         double difference;
         double average;
         
-        System.out.println("Please enter the fist number -> ");
+        System.out.println("Please enter a double -> ");
         firstNumber = input.nextInt();
-        System.out.println("Please enter the second number -> ");
+        System.out.println("Please enter another double -> ");
         secondNumber = input.nextInt();
         
         sum = firstNumber + secondNumber;
