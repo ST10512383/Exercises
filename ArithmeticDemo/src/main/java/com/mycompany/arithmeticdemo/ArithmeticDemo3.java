@@ -8,16 +8,16 @@ public class ArithmeticDemo3 {
                     
         Scanner input = new Scanner(System.in);
         
-        double firstNumber;
-        double secondNumber;
-        double sum;
-        double difference;
+        int firstNumber;
+        int secondNumber;
+        int sum;
+        int difference;
         double average;
         
-        System.out.println("Please enter a double -> ");
-        firstNumber = input.nextDouble();
-        System.out.println("Please enter another double -> ");
-        secondNumber = input.nextDouble();
+        System.out.println("Please enter the first number -> ");
+        firstNumber = input.nextInt();
+        System.out.println("Please enter the second number -> ");
+        secondNumber = input.nextInt();
         
         sum = firstNumber + secondNumber;
         difference = firstNumber + secondNumber;
