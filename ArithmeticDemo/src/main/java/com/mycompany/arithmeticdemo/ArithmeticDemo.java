@@ -14,6 +14,10 @@ public class ArithmeticDemo {
         int difference;
         int average;
         
+        System.out.println("Please enter the fist number -> ");
+        firstNumber = input.nextInt();
+        System.out.println("Please enter the second number -> ");
+        secondNumber = input.nextInt();
         
     }
 }
