@@ -22,5 +22,7 @@ public class ArithmeticDemo {
         sum = firstNumber + secondNumber;
         difference = firstNumber + secondNumber;
         average = sum / 2;
+        
+        System.out.println("The sum of " + firstNumber + " + " + secondNumber + " is " + sum);
     }
 }
