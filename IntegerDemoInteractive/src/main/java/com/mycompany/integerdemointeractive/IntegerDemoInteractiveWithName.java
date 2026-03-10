@@ -22,6 +22,7 @@ public class IntegerDemoInteractiveWithName {
         aLong = userInput.nextLong();
         
         System.out.print("Please enter your name > ");
+        userInput.nextLine();
         name = userInput.nextLine();
         System.out.println("Thank you, " + name);
         
