@@ -4,4 +4,8 @@ public class ParadiseInfo {
 
     public static void main(String[] args) {
     }
+    
+    public static void displayInfo(){
+        
+    }
 }
