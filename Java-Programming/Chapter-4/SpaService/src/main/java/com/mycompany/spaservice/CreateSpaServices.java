@@ -14,4 +14,8 @@ public class CreateSpaServices {
         SpaService firstService = new SpaService();
         SpaService secondService = new SpaService();
         
+        // Instantiate Scanner to take keyboard input from user
+        Scanner userInput = new Scanner(System.in);
+    }
+    
 }
