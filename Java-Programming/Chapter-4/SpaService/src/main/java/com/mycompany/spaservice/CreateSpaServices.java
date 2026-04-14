@@ -22,5 +22,10 @@ public class CreateSpaServices {
         service = userInput.nextLine();
         System.out.println("Enter Price >> ");
         price = userInput.nextDouble();
+        
+        // Call firstService object and pass service variable to setServiceDescription method
+        firstService.setServiceDescription(service);
+        // Call firstService object and pass price variable to setPrice method
+        firstService.setPrice(price);
     }
 }
